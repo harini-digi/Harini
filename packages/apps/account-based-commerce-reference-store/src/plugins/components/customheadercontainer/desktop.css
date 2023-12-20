@@ -1,0 +1,44 @@
+.CustomHeaderContainerDesktop__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  color: var(--cc-root-header-color);
+  white-space: nowrap;
+  background-color: var(--cc-root-header-background-color);
+}
+
+.CustomHeaderContainerDesktop__Section > *:first-child {
+  justify-content: flex-start;
+}
+
+.CustomHeaderContainerDesktop__Section > *:only-child {
+  justify-content: center;
+}
+
+.CustomHeaderContainerDesktop__Section > *:not(:first-child):not(:last-child):not(:nth-last-child(2)) {
+  justify-content: center;
+}
+
+.CustomHeaderContainerDesktop__Section > *:nth-last-child(2) {
+  justify-content: flex-end;
+}
+
+.CustomHeaderContainerDesktop__Section > * {
+  display: inline-flex;
+  padding: 0.25rem;
+}
+
+/* error icon in header should not be 100% */
+.CustomHeaderContainerDesktop__Section .Img__Wrapper .Img__MissingImgIcon {
+  width: 24px;
+}
+.CustomHeaderContainerDesktop__Section .Image {
+  margin-left:0rem;
+}
+
+@media (min-width: 600px) {
+  .CustomHeaderContainerDesktop__Section > * {
+    padding: 0.5rem 0.75rem;
+  }
+}

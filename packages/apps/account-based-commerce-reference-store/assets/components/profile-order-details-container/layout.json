@@ -1,0 +1,19 @@
+{
+  "regions": [
+    {
+      "components": [
+        "profile-order-information",
+        "shipping-information",
+        "payment-information",
+        "add-items-to-cart",
+        "add-to-purchase-list",
+        "profile-order-actions",
+        "profile-returns-summary-container",
+        "profile-order-summary",
+        "order-approval"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

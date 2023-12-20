@@ -1,0 +1,35 @@
+{
+  "address": "/checkout-quote-shipping",
+  "title": "Checkout Quote Shipping",
+  "shortName": "checkout-quote-shipping",
+  "defaultPage": false,
+  "settings": {
+    "displayName": "Checkout Quote Shipping"
+  },
+  "layout": [
+    {
+      "components": [
+        "checkout-header",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "checkout-progress-tracker",
+        "checkout-shipping-container",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ]
+}

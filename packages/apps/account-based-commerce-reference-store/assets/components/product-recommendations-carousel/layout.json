@@ -1,0 +1,13 @@
+{
+  "regions": [
+    {
+      "components": [
+        "recommended-product-image",
+        "recommended-product-name",
+        "recommended-product-price"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

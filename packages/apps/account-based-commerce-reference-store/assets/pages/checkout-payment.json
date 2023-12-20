@@ -1,0 +1,44 @@
+{
+  "layout": [
+    {
+      "components": [
+        "checkout-header",
+        "notifications"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "checkout-progress-tracker",
+        "checkout-payments-container",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Checkout Payment"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "checkout-payment",
+  "title": "Checkout Payment",
+  "shortName": "checkout-payment",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "checkout-payment"
+    }
+  }
+}

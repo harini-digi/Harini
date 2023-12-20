@@ -1,0 +1,49 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "account-address-book-breadcrumb",
+        "account-address-form"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Edit Account Address"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "edit-account-address",
+  "allowCustomAddress": true,
+  "title": "Edit Account Address",
+  "shortName": "profile",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "profile"
+    }
+  },
+  "secured": true
+}

@@ -1,0 +1,14 @@
+{
+  "layout": [
+    {
+      "components": [
+        "profile-purchase-list-action-buttons",
+        "profile-purchase-list-summary-information",
+        "profile-purchase-list-information"
+      ],
+      "width": 12
+    }
+  ],
+  "component": "ProfilePurchaseListDetailsContainer",
+  "title": "PurchaseListDetails"
+}

@@ -1,0 +1,31 @@
+{
+  "regions": [
+    {
+      "components": [
+        "profile-edit-delete-scheduled-order",
+        "profile-scheduled-order-summary-information",
+        "profile-recent-scheduled-orders-summary",
+        "shipping-information"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "add-items-to-cart",
+        "add-to-purchase-list"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "payment-information",
+        "profile-order-summary",
+        "order-approval"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "layout": [
+    {
+      "components": [
+        "profile-edit-delete-scheduled-order",
+        "profile-scheduled-order-summary-information",
+        "profile-recent-scheduled-orders-summary",
+        "shipping-information",
+        "payment-information",
+        "profile-order-summary",
+        "order-approval"
+      ],
+      "width": 12
+    }
+  ],
+  "component": "ScheduledOrderDetailsContainer",
+  "title": "ScheduledOrderDetails"
+}

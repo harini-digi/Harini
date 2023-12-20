@@ -1,0 +1,24 @@
+{
+  "layout": [
+    {
+      "components": [
+        "profile-order-information",
+        "shipping-information",
+        "payment-information",
+        "profile-returns-summary-container"
+      ],
+      "width": 9
+    },
+    {
+      "components": [
+        "profile-order-summary",
+        "profile-order-actions",
+        "order-approval",
+        "back-to-top-link"
+      ],
+      "width": 3
+    }
+  ],
+  "component": "ProfileOrderDetailsContainer",
+  "title": "OrderDetails"
+}

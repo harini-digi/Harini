@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "components": [
+        "checkout-customer-email",
+        "review-order-shipping-information"
+      ],
+      "width": 9
+    }
+  ]
+}

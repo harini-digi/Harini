@@ -1,0 +1,49 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "your-account-breadcrumb",
+        "registration-requests",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Registration Requests"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "contact-registration-requests",
+  "title": "Registration Requests",
+  "shortName": "contact-registration-requests",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "contact-registration-requests"
+    }
+  },
+  "secured": true
+}

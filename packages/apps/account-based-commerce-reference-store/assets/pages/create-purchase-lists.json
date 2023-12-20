@@ -1,0 +1,49 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "profile-purchase-lists-breadcrumb",
+        "profile-create-purchase-list",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Create Purchase List"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "create-purchase-list",
+  "title": "Create Purchase List Page",
+  "shortName": "Create Purchase List",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "Create Purchase List"
+    }
+  },
+  "secured": true
+}

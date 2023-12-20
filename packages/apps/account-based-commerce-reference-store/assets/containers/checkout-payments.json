@@ -1,0 +1,16 @@
+{
+  "layout": [
+    {
+      "components": [
+        "checkout-payment-methods-container",
+        "promotions",
+        "cart-order-summary",
+        "checkout-continue-to-review-order-button",
+        "checkout-back-to-previous-button"
+      ],
+      "width": 12
+    }
+  ],
+  "component": "CheckoutPaymentsContainer",
+  "title": "CheckoutPayments"
+}

@@ -1,0 +1,66 @@
+{
+  "layout": [
+    {
+      "components": [
+        "profile-registration-requests-summary"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "profile-orders-pending-approval-summary"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "profile-order-approval-settings-summary"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "profile-scheduled-orders-summary"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "profile-purchase-lists-summary"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "profile-account-address-book-summary"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "profile-account-contacts-summary"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "profile-details-summary"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "profile-saved-card-summary"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "profile-email-marketing-preferences-summary"
+      ],
+      "width": 3
+    }
+  ],
+  "component": "ResponsiveContainer",
+  "title": "AccountProfileContainer"
+}

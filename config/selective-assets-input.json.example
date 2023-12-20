@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "home.json",
+        "checkout-login.json",
+        "checkout-shipping.json"
+    ],
+    "containers": [
+        "profile-update-password-container.json"
+    ],
+    "slots": {
+        "header-with-notification-device-slot": [
+        ],
+        "dynamic-product-listing-for-search-device-slot": [
+            "structure.json"
+        ],
+        "checkout-header-with-notification-device-slot": [
+            "config.json",
+            "index.json"
+        ]
+    },
+    "components": {
+        "product-breadcrumbs": [
+          "resources.json"
+        ],
+        "dynamic-breadcrumbs": [
+          "config.json"
+        ],
+        "search-box-desktop": [
+          "resources.json"
+        ],
+        "search-box-mobile": [
+          "config.json",
+          "index.json"
+        ],
+        "collection-navigation-desktop": [
+          "resources.json",
+          "index.json"
+        ],
+        "collection-navigation-mobile": [
+          "config.json",
+          "index.json"
+        ],
+        "account-type-selector": [
+        ],
+        "account-type-selector-responsive": [
+            "layout.json",
+            "index.json"
+        ],
+        "checkout-back-to-previous-button": [
+            "index.json"
+        ]
+    }
+}

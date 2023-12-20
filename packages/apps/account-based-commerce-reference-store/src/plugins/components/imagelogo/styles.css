@@ -1,0 +1,21 @@
+.imagelogo {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.imagelogo__Label {
+  color: #729fff;
+}
+.imagelogo__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+}
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.imagelogo__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */

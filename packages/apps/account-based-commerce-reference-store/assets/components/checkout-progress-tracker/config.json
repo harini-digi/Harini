@@ -1,0 +1,7 @@
+{
+  "checkoutPaymentAddress": "checkout-payment",
+  "checkoutReviewAddress": "checkout-review-order",
+  "checkoutShippingAddress": "checkout-shipping",
+  "checkoutQuoteShippingAddress": "checkout-quote-shipping",
+  "checkoutPaymentAndReviewAddress": "checkout-quote-payment-and-review"
+}

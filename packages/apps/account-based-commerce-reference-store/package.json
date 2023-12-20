@@ -1,0 +1,31 @@
+{
+  "name": "@oracle-cx-commerce/account-based-commerce-reference-store",
+  "version": "5.1.0",
+  "private": false,
+  "description": "Oracle CX Commerce Account Based Commerce Reference Storefront Application",
+  "dependencies": {
+    "@oracle-cx-commerce/actions": "5.1.0",
+    "@oracle-cx-commerce/endpoints": "5.1.0",
+    "@oracle-cx-commerce/oce-endpoints": "5.1.0",
+    "@oracle-cx-commerce/occ-metadata": "5.1.0",
+    "@oracle-cx-commerce/react-app": "5.1.0",
+    "@oracle-cx-commerce/react-widgets": "5.1.0",
+    "@oracle-cx-commerce/subscribers": "5.1.0"
+  },
+  "devDependencies": {
+    "@oracle-cx-commerce/rollup-config": "5.1.0"
+  },
+  "occ": {
+    "namespace": "occ.react",
+    "plugins": {
+      "actions": "src/plugins/actions",
+      "components": "src/plugins/components",
+      "endpoints": "src/plugins/endpoints",
+      "subscribers": "src/plugins/subscribers"
+    },
+    "locales": [
+      "en",
+      "de"
+    ]
+  }
+}
