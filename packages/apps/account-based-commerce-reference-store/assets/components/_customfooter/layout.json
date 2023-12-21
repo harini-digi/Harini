@@ -1,0 +1,13 @@
+{
+  "regions": [
+    {
+      "components": [
+        "_custom-footer-links",
+        "web-content-copyright-and-social-links",
+        "progress-bar"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

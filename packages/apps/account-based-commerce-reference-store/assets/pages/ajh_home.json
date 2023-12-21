@@ -56,7 +56,7 @@
     },
     {
       "components": [
-        "footer"
+        "_customfooter"
       ],
       "width": 12,
       "type": "footer"

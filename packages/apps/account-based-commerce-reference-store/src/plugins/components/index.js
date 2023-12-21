@@ -8,3 +8,5 @@ export * from '@oracle-cx-commerce/react-widgets';
 export const customimage = () => import('./customimage');
 export const customheadercontainer = () => import('./customheadercontainer');
 export const imagelogo = () => import('./imagelogo');
+export const customfootercontainer = () => import('./customfootercontainer');
+export const customlinklist = () => import('./customlinklist');
